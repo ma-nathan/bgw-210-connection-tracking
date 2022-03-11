@@ -34,6 +34,7 @@ func main() {
 	var result string
 
 	for {
+		fmt.Printf("Wakeup: query BGW-210...\n")
 		start_time := time.Now()
 
 		ctx, cancel := chromedp.NewContext(context.Background())
