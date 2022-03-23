@@ -33,7 +33,7 @@ func main() {
 
 	var result string
 
-	for {
+	for ctr := 0; ctr < 60 ; ctr++ {
 		start_time := time.Now()
 
 		ctx, cancel := chromedp.NewContext(context.Background())
