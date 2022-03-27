@@ -5,7 +5,7 @@ build:
 	go get -v .
 	strip bgw210
 	cp bgw210 files/
-	docker build -t bgw:0.7 .
+	docker build -t bgw:0.8 .
 
 go:
 	@echo Compiling go tool...
